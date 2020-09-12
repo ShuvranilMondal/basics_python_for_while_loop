@@ -102,6 +102,48 @@ name = input("Enter :")
 for i in range(len(name)):
     print(name[i])
 
+number = int(input("Enter your number"))
+num = 1
+for row in range(1,number+1):
+    for col in range(1,row+1):
+        print(num , end= " ")
+        num += 1
+    print() 
 
+# 1 
+# 2 3
+# 4 5 6
+# 7 8 9 10
+# 11 12 13 14 15                                              
+
+
+name = input("Enter your name : ")
+for row in range(len(name)):
+    for col in range(0,row+1):
+        print(name[col] , end= " ")
+    print()
+
+# s 
+# s h
+# s h u
+# s h u v
+# s h u v r
+# s h u v r a
+# s h u v r a n
+# s h u v r a n i
+# s h u v r a n i l 
+
+char = input("Enter your char : ")
+n = int(input("Enter range : "))
+for row in range(1,n+1):
+    for col in range(1,row+1):
+        print(char,end=" ")
+    print()
+
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
 
         
